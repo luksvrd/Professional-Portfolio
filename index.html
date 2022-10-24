@@ -3,46 +3,142 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <!-- CSS -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css"
     />
     <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
     <title>Lukas Virden Portfolio</title>
   </head>
   <body>
-    <header>
-      <h1>Lukas J. Virden</h1>
-      <nav class="navbar">
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact Me</a></li>
-          <li><a href="#">Resume</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="hero"></div>
+    <!-- nav bar -->
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">My Portfolio</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <div class="main">
+        <h1 class="headings">
+          Hello, <br />
+          My name is Lukas Virden
+        </h1>
+      </div>
+    </section>
+
     <main>
-      <section id="About Me">
-        <h2>About Me</h2>
-        <p>Text</p>
+      <section id="about">
+        <h2 class="headings">ABOUT ME</h2>
+        <div id="pic">
+          <img src="../images/mePhoto.jpg" alt="Photo of me at the beach" />
+          <div id="intro">
+            <h3>LUKAS VIRDEN</h3>
+            <p>
+              I graduated with a Civil Engineering degree from Missouri S&T and
+              have worked in the construction industry for a little over 4
+              years. After gaining some experience in the real world I figured I
+              would try to pivot into the tech industry. I joined the Washington
+              University coding Bootcamp and here we are! I have a few personal
+              projects in mind that I would like to do in the future but
+              unfortunately not much to show for now. Revist the page in the
+              future to see my progress!
+            </p>
+          </div>
+        </div>
       </section>
-      <section id="Portfolio">
-        <h2>Portfolio</h2>
-        <p>Text</p>
+
+      <section id="portfolio">
+        <h2 class="headings">PORTFOLIO</h2>
+        <div class="project-container">
+          <a
+            class="project"
+            id="project1"
+            href="https://luksvrd.github.io/HW-01-Horiseon/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="project-description">
+              <h4>Horiseon</h4>
+              <p>
+                I did some code refactoring of the home page for Horision Inc.
+                They had some messy, non-semantic and repetative code in there
+                so I added HTML semantics and consolidated the CSS file for
+                them.
+              </p>
+            </div>
+          </a>
+          <div class="project" id="project2">
+            <div class="project-description">
+              <h4>Barbershop Scheduling</h4>
+              <p>
+                My barber is in need of a scheduling website so her and her
+                clients can easiely see what spots are availible and schedule
+                haircuts.
+              </p>
+            </div>
+          </div>
+          <div class="project" id="project3">
+            <div class="project-description">
+              <h4>HVAC Website</h4>
+              <p>
+                My friend has his own HVAC business and I wouuld like to make
+                him a website someday!
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
-      <aside>
-        <section id="Contact Me">
-          <h3>Contact Me</h3>
-          <p>Contact Info</p>
-        </section>
-      </aside>
+
+      <section id="contact">
+        <h2 id="headings">CONTACT ME</h2>
+        <form action="" class="form"></form>
+      </section>
+
+      <section id="contact-me">
+        <a
+          class="contact-item"
+          id="github"
+          href="https://github.com/luksvrd"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Github</a
+        >
+        <a
+          class="contact-item"
+          id="LinkedIn"
+          href="https://www.linkedin.com/in/lukasvirden/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn</a
+        >
+        <a
+          class="contact-item"
+          id="Gmail"
+          href="mailto:ljvy9b@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Send Email</a
+        >
+        <a
+          class="contact-item"
+          id="github"
+          href="tel:6362780359"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Phone Number</a
+        >
+      </section>
     </main>
-    <footer>
-      <h4>Lets Connect</h4>
-      <p>insert links</p>
-    </footer>
+    <footer>Made by Lukas Virden</footer>
   </body>
 </html>
