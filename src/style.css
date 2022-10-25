@@ -175,7 +175,7 @@ nav ul li a:hover {
 .project-description {
   background-color: gray;
   color: black;
-  margin-top: 75%;
+  margin-top: 65%;
   max-height: 17em;
   object-fit: contain;
   display: inline-block;
@@ -296,6 +296,8 @@ nav ul li a:hover {
     font-size: 10px;
   }
 }
+
 /* SOURCES: https://www.youtube.com/watch?v=zX3ikOsQg58&t=262s
 https://www.youtube.com/watch?v=fOSpqwM_ZtQ */
+
 /* FONT SOURCE: https://fonts.google.com/specimen/Comfortaa */
