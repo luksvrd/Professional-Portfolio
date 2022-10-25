@@ -11,7 +11,7 @@ This website presents visitors with a description of me and what I have done for
 
 https://luksvrd.github.io/Professional-Portfolio/
 
-![Getting Started](./images/PorfolioScreen.jpg)
+![Getting Started](./images/PorfolioScreen.png)
 
 ## CONTRIBUTION
 Made by Lukas Virden
